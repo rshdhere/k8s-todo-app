@@ -7,7 +7,8 @@ console.log(process.env.PORT);
 
 app.get("/", (req, res) => {
     res.json({
-        db: process.env.DATABASE_URL
+        db: process.env.DATABASE_URL,
+        port: process.env.PORT
     })
 })
 
