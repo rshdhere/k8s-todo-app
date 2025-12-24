@@ -4,4 +4,3 @@ metadata:
   name: backend-config
 data:
   port: "3000"
-  database_url: "potgres://123"
